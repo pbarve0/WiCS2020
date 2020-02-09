@@ -68,3 +68,25 @@ body {
     border:3px solid #Fedee1;
     color:white;
 }
+
+.button1 {
+  border-radius: 8px;
+  background-color:#f7858d;
+  color: white;
+  border: 2px solid #Fedee1;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  margin: 8px 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-style: oblique;
+  font-weight: lighter;
+}
+.button1:hover{
+    background-color:white;
+    border:3px solid #f7858d;
+    color:#f7858d;
+}
