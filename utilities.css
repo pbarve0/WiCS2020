@@ -4,14 +4,11 @@
   }
   
   body {
-    margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #Fedee1;
-    color: #f7858d;
+    background-color: #f7858d;
   }
   
   #regForm {
-    background-color: #ffffff;
+    background-color: #Fedee1;
     margin: 100px auto;
     font-family: Raleway;
     padding: 40px;
@@ -28,7 +25,7 @@
     width: 100%;
     font-size: 17px;
     font-family: Raleway;
-    border: 1px solid #aaaaaa;
+    border: 1px solid #f7858d;
   }
   
   /* Mark input boxes that gets an error on validation: */
@@ -42,8 +39,9 @@
   }
   
   button {
-    background-color: white;
-    color: #f7858d;
+    background-color: #f7858d;
+    color: #ffdddd;
+    border-radius: 8px;
     border: none;
     padding: 10px 20px;
     font-size: 17px;
@@ -56,7 +54,7 @@
   }
   
   #prevBtn {
-    background-color: #bbbbbb;
+    background-color: #f7858d;
   }
   
   /* Make circles that indicate the steps of the form: */
@@ -64,7 +62,7 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbbbbb;
+    background-color: #ffffff;
     border: none;  
     border-radius: 50%;
     display: inline-block;
