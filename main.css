@@ -17,3 +17,19 @@ li {
     font-style: italic;
     font-weight: bold;
 }
+.button {
+    background-color: #f44336;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color:white;
+    border:3px solid #f44336;
+    color:black;
+}
