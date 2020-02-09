@@ -7,9 +7,15 @@ body {
   background-color: #Fedee1;
   color: #f7858d;
 }
+.header1 {
+  background-color: #Fedee1;
+  padding: 15px;
+  text-align: center;
+  font-size: 35px;
+}
 
 /* Style the header */
-.header {
+.header2 {
   background-color: #Fedee1;
   padding: 30px;
   text-align: center;
@@ -89,4 +95,25 @@ body {
     background-color:white;
     border:3px solid #f7858d;
     color:#f7858d;
+}
+.buttonT {
+  background-color: #Fedee1;
+  color: #f7858d;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  float: right;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  
+}
+.buttonT:hover{
+  background-color:white;
+  border:3px solid #Fedee1;
+  color:#f7858d;
+}
+.disabled {
+  background-color: white;
+  cursor: not-allowed;
 }
