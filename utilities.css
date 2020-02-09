@@ -4,20 +4,22 @@
   }
   
   body {
-    background-color: #f7858d;
+    background-color: #Fedee1;
+    color: #f7858d;
   }
   
   #regForm {
-    background-color: #Fedee1;
-    margin: 100px auto;
+    background-color: #ffffff;
+    margin: 60px;
     font-family: Raleway;
     padding: 40px;
-    width: 70%;
-    min-width: 300px;
+    width: 100px;
+    /*min-width: 300px;*/
   }
   
   h1 {
     text-align: center;  
+    color: #f7858d;
   }
   
   input {
