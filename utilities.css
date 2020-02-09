@@ -10,16 +10,15 @@
   
   #regForm {
     background-color: #ffffff;
-    margin: 60px;
+    margin: 100px auto;
     font-family: Raleway;
     padding: 40px;
-    width: 100px;
-    /*min-width: 300px;*/
+    width: 70%;
+    min-width: 300px;
   }
   
   h1 {
     text-align: center;  
-    color: #f7858d;
   }
   
   input {
@@ -28,6 +27,7 @@
     font-size: 17px;
     font-family: Raleway;
     border: 1px solid #f7858d;
+    color: #f7858d
   }
   
   /* Mark input boxes that gets an error on validation: */
