@@ -6,6 +6,39 @@
   body {
     background-color: #Fedee1;
     color: #f7858d;
+      background-image: url("flowers.png");
+      background-color: #Fedee1;
+      background-size: 600px;
+      background-position-y: 100px;
+      background-position-x: 850px;
+      background-repeat: no-repeat;
+  }
+  .header1 {
+    background-color: #Fedee1;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    background-image: url(Blossom.png);
+    background-position-x: 10px;
+    background-size: 120px;
+    background-repeat: no-repeat;
+  }
+  .button {
+    background-color: #Fedee1;
+    color: #f7858d;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+  }
+  .button:hover{
+    background-color:white;
+    border:3px solid #Fedee1;
+    color:#f7858d;
   }
   
   #regForm {
@@ -19,6 +52,10 @@
   
   h1 {
     text-align: center;  
+    font-weight: bold;
+    color: #f7858d;
+    font-size: 50px;
+    padding: 20px;
   }
   
   input {
