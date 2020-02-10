@@ -45,6 +45,11 @@
     border-radius: 4px;
   }
   
+  input[type = radio] {
+    vertical-align: middle;
+    position: relative;
+  }
+  
   button {
     background-color: #f7858d;
     color: #ffdddd;
@@ -77,10 +82,10 @@
   }
   
   .step.active {
-    opacity: 1;
+    opacity: 0.75;
   }
   
   /* Mark the steps that are finished and valid: */
   .step.finish {
-    background-color: #f7858d;
+    background-color: #ff656f;
   }
