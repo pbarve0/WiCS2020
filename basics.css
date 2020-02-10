@@ -9,9 +9,13 @@ body {
 }
 .header1 {
   background-color: #Fedee1;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
   font-size: 35px;
+  background-image: url(Blossom.png);
+  background-position-x: 10px;
+  background-size: 120px;
+  background-repeat: no-repeat;
 }
 
 /* Style the header */
