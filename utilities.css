@@ -39,18 +39,23 @@
   .tab {
     display: none;
   }
+
+  #tab {
+    color: #f7858d;
+    border-radius: 4px;
+  }
   
   button {
     background-color: #f7858d;
     color: #ffdddd;
     border-radius: 8px;
-    border: none;
+    border: 20px #ffffff;
     padding: 10px 20px;
     font-size: 17px;
     font-family: Raleway;
     cursor: pointer;
   }
-  
+
   button:hover {
     opacity: 0.8;
   }
@@ -64,7 +69,7 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #ffffff;
+    background-color: #ffdddd;
     border: none;  
     border-radius: 50%;
     display: inline-block;
