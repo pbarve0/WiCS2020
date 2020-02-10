@@ -54,6 +54,9 @@ function validateForm() {
       valid = false;
     }
   }
+
+  sessionStorage.setItem(currentTab, y);
+  
   // If the valid status is true, mark the step as finished and valid:
   if (valid) {
     document.getElementsByClassName("step")[currentTab].className += " finish";
