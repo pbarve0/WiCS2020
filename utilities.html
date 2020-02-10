@@ -65,7 +65,11 @@
   </div>
 
   <div class="tab">What will be your main form of transportation?
-    <p><input placeholder="Transportation" type="text" name="transportation"></p>
+    <select id="tab">
+        <option value="car">Car</option>
+        <option value="bus">Bus</option>
+        <option value="walk/bike">Walking/Biking</option>
+        </select> 
     <!-- 
         <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
         <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
@@ -161,6 +165,10 @@
   </div>
   <!-- Circles which indicates the steps of the form: -->
   <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
     <span class="step"></span>
